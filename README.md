@@ -1,14 +1,8 @@
 # Make image of old SD-Card for backup
 
-## copy image with dd
-```
-sudo dd if=/dev/mmcblk0 of=sdimage.img bs=4M
-```
+If you wish to make a backup copy of an SD-Card before imaging for a new system, follow these:
+[SD-Card backup instructions](sd-card-backup.md).
 
-## shrink image
-```
-sudo ~/sw/PiShrink/pishrink.sh sdimage.img
-```
 
 # Image with new OS for raspberry pi
 
